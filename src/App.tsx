@@ -233,6 +233,7 @@ const App = () => {
               <div className="flex items-center mb-6"><Wrench className="h-8 w-8 text-blue-600 dark:text-blue-500 mr-3" /><h3 className="text-2xl font-bold text-gray-900 dark:text-white">Skilled Indoor Services</h3></div>
               <div className="bg-blue-600 text-white rounded-lg p-4 mb-6 text-center"><div className="text-3xl font-bold">$20</div><div className="text-blue-100">per hour</div></div>
               <ul className="space-y-4">
+                <li className="flex items-start"><Check className="h-5 w-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" /><span className="text-gray-700 dark:text-gray-300">Tech Troubleshooting</span></li>
                 <li className="flex items-start"><Check className="h-5 w-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" /><span className="text-gray-700 dark:text-gray-300">Furniture Assembly</span></li>
                 <li className="flex items-start"><Check className="h-5 w-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" /><span className="text-gray-700 dark:text-gray-300">Moving Light Furniture</span></li>
               </ul>
@@ -243,7 +244,6 @@ const App = () => {
               <div className="bg-blue-600 text-white rounded-lg p-4 mb-6 text-center"><div className="text-3xl font-bold">$17</div><div className="text-blue-100">per hour</div></div>
               <ul className="space-y-4">
                 <li className="flex items-start"><Check className="h-5 w-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" /><span className="text-gray-700 dark:text-gray-300">Yard Work & Cleanup</span></li>
-                <li className="flex items-start"><Check className="h-5 w-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" /><span className="text-gray-700 dark:text-gray-300">Tech Troubleshooting</span></li>
                 <li className="flex items-start"><Check className="h-5 w-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" /><span className="text-gray-700 dark:text-gray-300">Babysitting</span></li>
               </ul>
             </div>
